@@ -175,7 +175,7 @@ footer span {
 }
 
 /***** Tablet *****/
-@media (min-width: 760px) {
+@media all and (min-width: 768px) {
 	body {
 		font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 		display: flex;
@@ -210,6 +210,27 @@ footer span {
 		flex-flow: row wrap;
 	}
 
+	.section-one {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-flow: row wrap;
+	}
+
+	.section-two {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-flow: row wrap;
+	}
+
+	.section-three {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-flow: row wrap;
+	}
+
 	footer {
 		border-top: 3px solid #eee;
 		margin: 0 auto;
@@ -223,7 +244,7 @@ footer span {
 }
 
 /***** Desktop *****/
-@media (min-width: 1200px) {
+@media all and (min-width: 1200px) {
 	body {
 		font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 		display: flex;
@@ -247,6 +268,11 @@ footer span {
 		justify-content: center;
 		align-items: center;
 		flex-flow: row wrap;
+	}
+
+	header nav ul {
+		display: flex;
+		justify-content: space-between;
 	}
 
 	.top-section,
