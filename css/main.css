@@ -78,6 +78,7 @@ header nav {
 header nav ul {
 	margin: 0;
 	padding: 30;
+	text-align: center;
 }
 header nav ul li {
 	text-transform: uppercase;
@@ -201,4 +202,5 @@ header nav {
 header nav ul {
 		display: flex;
 		justify-content: space-between;
+		padding: 10px 0;
 }
